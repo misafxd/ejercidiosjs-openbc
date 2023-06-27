@@ -16,4 +16,4 @@ const miLista = [
     {nombre: 'erika', apellido: 'Martinez', edad: 30, altura: 155, eresDesarrollador: true}
 ];
 
-const listaOrdenada = miLista.sort((a,b)=> a.edad -b.edad);
+const listaOrdenada = miLista.sort((a,b)=> b.edad -a.edad);
