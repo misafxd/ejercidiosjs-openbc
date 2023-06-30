@@ -1,7 +1,5 @@
 import * as moduloController from './modulos/controller.js'
 import chalk from 'chalk';
 
-const sum = moduloController.suma(4,5);
-console.log(sum);
-const multi = moduloController.multiplica(1,2);
+const multi = moduloController.multiplica(moduloController.suma(1,2),moduloController.suma(4,5));
 console.log(chalk.green(multi));
