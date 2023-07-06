@@ -1,0 +1,15 @@
+.section, .section-papelera{
+    background-color: cadetblue;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.parrafo {
+    background-color: white;
+    padding: 1rem;
+}
+
+.parrafo.dragging {
+    opacity: 0.3;
+}
+
